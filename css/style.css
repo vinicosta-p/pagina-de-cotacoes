@@ -1,0 +1,26 @@
+
+
+header {
+    background-color: black;
+    height: 100px;
+    padding: 10px;
+}
+
+.info-main-page {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.conteudo {
+    padding: 100px;
+    margin: 0 auto;
+}
+
+

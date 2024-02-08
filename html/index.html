@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="../js/config/config.js" type="module"></script>
+    <script defer src="../js/modules/hg-api.js" type="module"></script>
+    <script defer src="../js/modules/create-lines.js" type="module"></script>
+    
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Cotas do dia</title>
+</head>
+<body>
+    <header>
+        <div class="info-main-page">
+            <h1>Cotações de Moedas com API</h1>
+        </div>
+    </header>
+    <main>
+        
+        <section class="conteudo">
+            <div>
+                <h2>Cotações de moedas</h2>
+                <p>Aqui estão algumas cotas em relação ao real</p>
+            </div>
+            <div></div>
+            <table class="table table-hover">
+                <thead class="thead-content">
+                  <tr>
+                    <th scope="col"><strong>Nome</strong></th>
+                    <th scope="col"><strong>Compra</strong></th>
+                    <th scope="col"><strong>Variação</strong></th>
+                  </tr>
+                </thead>
+                <tbody id="raiz-tbody">
+                  
+                </tbody>
+              </table>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
